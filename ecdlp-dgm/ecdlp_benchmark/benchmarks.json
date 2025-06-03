@@ -1,0 +1,62 @@
+{
+  "benchmarks": [
+    {
+      "id": "ecdlp_toy_1",
+      "description": "Small ECDLP instance for testing",
+      "curve": "secp256k1",
+      "private_key": "0x123456789abcdef",
+      "public_key": {
+        "x": "0x...",
+        "y": "0x..."
+      },
+      "difficulty": "toy"
+    },
+    {
+      "id": "ecdlp_small_1",
+      "description": "40-bit ECDLP challenge",
+      "curve": "secp256k1_reduced",
+      "field_size": "40_bits",
+      "private_key": "hidden",
+      "public_key": {
+        "x": "0x...",
+        "y": "0x..."
+      },
+      "difficulty": "small"
+    },
+    {
+      "id": "ecdlp_research_1",
+      "description": "Research instance with known structure",
+      "curve": "secp256k1_variant",
+      "special_structure": "smooth_order_subgroup",
+      "difficulty": "research"
+    },
+    {
+      "id": "ecdlp_full",
+      "description": "Full secp256k1 ECDLP (unsolved)",
+      "curve": "secp256k1",
+      "private_key": "unknown",
+      "public_key": "bitcoin_puzzle_transaction",
+      "difficulty": "full",
+      "prize": "significant"
+    }
+  ],
+  "progress_metrics": {
+    "theoretical_advances": {
+      "new_algorithm": 100,
+      "improved_complexity": 50,
+      "novel_approach": 75,
+      "mathematical_insight": 25
+    },
+    "computational_advances": {
+      "solve_toy": 5,
+      "solve_small": 20,
+      "solve_medium": 100,
+      "partial_solution": 10
+    },
+    "verification_requirements": {
+      "mathematical_proof": true,
+      "computational_verification": true,
+      "peer_review_simulation": true
+    }
+  }
+}

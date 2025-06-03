@@ -1,0 +1,10 @@
+{
+  "toy_cases": [
+    {
+      "id": "toy_1",
+      "private_key": 12345,
+      "public_key": "Calculate using secp256k1",
+      "difficulty": "toy"
+    }
+  ]
+}

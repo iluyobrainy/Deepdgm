@@ -1,0 +1,12 @@
+{
+  "run_id": "initial",
+  "parent_commit": null,
+  "overall_performance": {
+    "progress_score": 0.0,
+    "verified_discoveries": 0,
+    "breakthrough_count": 0,
+    "total_discoveries": 0
+  },
+  "entry": "ecdlp_secp256k1",
+  "problem_statement": "Find a polynomial-time algorithm for ECDLP on secp256k1"
+}
